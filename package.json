@@ -1,0 +1,26 @@
+{
+  "name": "whatsapp-bot-baileys",
+  "version": "1.0.0",
+  "description": "Estructura base para bot de WhatsApp con Baileys y TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@whiskeysockets/baileys": "^6.6.0",
+    "input": "^1.0.1",
+    "pino": "^9.0.0",
+    "qrcode-terminal": "^0.12.0",
+    "telegram": "^2.26.22"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/qrcode-terminal": "^0.12.2",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.3.3"
+  }
+}

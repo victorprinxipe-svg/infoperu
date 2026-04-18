@@ -1,0 +1,6 @@
+{
+  "name": "test-bot",
+  "dependencies": {
+    "pino": "^9.0.0"
+  }
+}
